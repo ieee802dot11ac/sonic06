@@ -1,0 +1,4 @@
+# See config.example.yml for documentation.
+object: orig/534507D6/default.xex
+symbols: config/534507D6/symbols.txt
+splits: config/534507D6/splits.txt
