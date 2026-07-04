@@ -19,18 +19,18 @@
 
 
 
+// Sonic 06: Removed "nil", "number", "table"
 const char *const luaT_typenames[] = {
-  "nil", "boolean", "userdata", "number",
-  "string", "table", "function", "userdata", "thread"
+  "boolean", "userdata", "string",
+  "function", "userdata", "thread"
 };
 
 
+// Sonic 06: Removed "__index", "__gc", "__mode", "__pow"
 void luaT_init (lua_State *L) {
   static const char *const luaT_eventname[] = {  /* ORDER TM */
-    "__index", "__newindex",
-    "__gc", "__mode", "__eq",
-    "__add", "__sub", "__mul", "__div",
-    "__pow", "__unm", "__lt", "__le",
+    "__newindex", "__eq", "__add", "__sub",
+    "__mul", "__div", "__unm", "__lt", "__le",
     "__concat", "__call"
   };
   int i;
