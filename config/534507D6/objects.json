@@ -27,12 +27,20 @@
             "lua-5.0/src/lfunc.c": "Matching",
             "lua-5.0/src/ltable.c": "Matching",
             "lua-5.0/src/lzio.c": "Matching",
-            "lua-5.0/src/ldebug.c": "NonMatching",
+            "lua-5.0/src/ldebug.c": "Matching",
             "lua-5.0/src/lmem.c": "Matching",
             "lua-5.0/src/lparser.c": "Matching",
             "lua-5.0/src/lundump.c": "Matching",
             "lua-5.0/src/llex.c": "NonMatching",
             "lua-5.0/src/lcode.c": "Matching"
+        }
+    },
+    "xdk": {
+        "progress_category": "xdk",
+        "mw_version": "X360/14.00.2110",
+        "cflags": "xdk",
+        "objects": {
+            "xdk/d3d9/debug.cpp": "NonMatching"
         }
     }
 }

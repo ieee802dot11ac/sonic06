@@ -18,6 +18,10 @@ Main.cpp:
 	.pdata      start:0x82129740 end:0x82129748
 	.text       start:0x8238BFD0 end:0x8238C248
 
+xdk/d3d9/debug.cpp:
+	.pdata      start:0x82135C30 end:0x82135C60
+	.text       start:0x82540A28 end:0x82541120
+
 lua-5.0/src/lapi.c:
 	.rdata      start:0x82048D18 end:0x82048DC4
 	.pdata      start:0x821394C8 end:0x82139610
@@ -109,3 +113,7 @@ lua-5.0/src/lcode.c:
 	.rdata      start:0x8204A224 end:0x8204A290
 	.pdata      start:0x82139DE0 end:0x82139EB0
 	.text       start:0x825E5398 end:0x825E6C30
+
+SoX/platforms/xenon/AtgFont.cpp:
+	.pdata      start:0x82147A08 end:0x82147A10
+	.text       start:0x828BDAC0 end:0x828BDC08
