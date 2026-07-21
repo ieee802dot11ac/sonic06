@@ -1,4 +1,9 @@
+#include "SoX/FileSystemXenon.hpp"
+#include "System/Singleton.hpp"
+
+Sonicteam::System::Singleton<Sonicteam::SoX::FileSystemXenon> TheFS;
+
 int main(int argc, char **argv) {
-	// insert code here
+	TheFS.GetSingleton();
 	return 0;
 }
