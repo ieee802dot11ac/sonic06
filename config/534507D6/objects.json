@@ -1,7 +1,7 @@
 {
     "main": {
         "progress_category": "game",
-        "mw_version": "X360/14.00.3529",
+        "mw_version": "X360/14.00.2110",
         "cflags": "base",
         "objects": {
             "Main.cpp": "NonMatching"
@@ -9,7 +9,7 @@
     },
     "SoX": {
         "progress_category": "game",
-        "mw_version": "X360/14.00.3529",
+        "mw_version": "X360/14.00.2110",
         "cflags": "base",
         "objects": {
             "SoX/Graphics/ShaderCommon.cpp": {
